@@ -1,7 +1,9 @@
 summer_olympics = {Sydney: "2000", Athens: "2004", Beijing:"2008", London: "2012"}
-
-summer_olympics [:Atlanta] = "1996"
-  puts summer_olympics
+end
+new_hash= create_olympics_hash
+new_hash[L:Atlanta] = "1996"
+new_hash
+end
 
 
 summer_olympics.each do |place,year|
